@@ -20,7 +20,3 @@ This is a simple console-based application that implements the basic CRUD (Creat
 - **File I/O** (Optional): To persist records between sessions (if using a file).
 - **Standard Library**: Used for input/output (e.g., `iostream`), data storage, and file operations.
 
----
-
-## 📂 File Structure
-
