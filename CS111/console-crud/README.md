@@ -3,7 +3,7 @@
 Welcome to the **Console CRUD Program**!  
 This is a simple console-based application that implements the basic CRUD (Create, Read, Update, Delete) operations to manage data.
 
----
+
 
 ## 🎯 Features
 
@@ -12,7 +12,7 @@ This is a simple console-based application that implements the basic CRUD (Creat
 - **Update**: Modify or update existing records.
 - **Delete**: Remove records from the system.
 
----
+
 
 ## 🛠️ Technologies Used
 
