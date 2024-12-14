@@ -1,7 +1,7 @@
 /* Header */
 header 
 {
-    background-image:url(/bscs-student-creations/IT111/ipw-assets/backgroundsite.gif);
+    background-image:url(backgroundsite.gif);
     background-size: cover; /* Scale the GIF cover the entire screen */
     background-position: center; /* Center the GIF */
     background-repeat: no-repeat; /* Prevent tiling of the GIF */
