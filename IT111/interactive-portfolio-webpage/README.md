@@ -22,7 +22,4 @@ You can view the interactive portfolio webpage live by visiting the following li
 - Adding a blog or a section with articles about web development.
 - Implementing a backend to handle form submissions.
 
-## 📩 Contact
-If you have any questions or would like to get in touch, feel free to reach out through the contact form on my portfolio or by email at **your-email@example.com**.
-
 Thank you for visiting my interactive portfolio! 🙌
