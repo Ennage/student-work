@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Portfolio Webpage</title>
+    <link rel="stylesheet" href="ipw-styles.css">
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+        <div class="container">
+            <h1>WELCOME TO MY PORTFOLIO</h1>
+        </div>
+    </header>
+
+    <!--Navigation-->
+    <nav>
+        <!--Buttons-->
+        <ul class="navbar">
+            <button onclick="location.href='index.html';">HOME</button>
+            <button onclick="location.href='ipw-skills.html';">SKILLS</button>
+            <button onclick="location.href='ipw-projects.html';">PROJECTS</button>
+            <button onclick="location.href='ipw-contact.html';">CONTACTS</button>
+        </ul>
+
+        <!--NON-FUNCTIONAL Search Bar-->
+        <form action="#" method="get" class="search-bar">
+            <input type="text" placeholder="Search..." name="query">
+            <button type="submit">Search</button>
+        </form>
+    </nav>
+
+    <main>
+        <div class="text-container">
+            <h2>Project Showcase</h2>
+            <p>
+                A curated collection of my completed projects.
+            </p>
+        </div>
+
+        <div class="card-container">
+
+            <!-- Project 1 -->
+            <div class="card">
+                <div class="card-header">
+                    <span class="header-text">Space Rabbit</span>
+                    <span class="close-btn">×</span>
+                </div>
+
+                <div class="card-content">
+                    <div class="project-description">
+                        <p>
+                            Embark on a cosmic comedy with Space Rabbit!
+                            This side-scrolling spectacle throws you into a chaotic celestial obstacle course.
+                            Dodge a barrage of stars with the arrow keys or WASD, 
+                            all while the music plays a hilariously dramatic soundtrack. 
+                            Can you keep Space Rabbit from becoming the next supernova? 
+                            Buckle up for some out-of-this-world fun!
+                        </p>
+                    </div>
+
+                    <div class="button-container">
+                        <button onclick="location.href='https://github.com/Ennage/cs50-assignments/tree/main/space-rabbit';">View on GitHub</button>
+                        <button onclick="location.href='https://scratch.mit.edu/projects/1051640501';" target="_blank">View on Scratch</button>
+                    </div>                     
+                
+                    <div class="site-show">
+                        <iframe src="https://scratch.mit.edu/projects/1051640501/embed" 
+                            allowtransparency="true" 
+                            width="485" 
+                            height="402" 
+                            frameborder="0" 
+                            scrolling="no" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!--Project 2-->
+            <div class="card">
+                <div class="card-header">
+                    <span class="header-text">Console CRUD</span>
+                    <span class="close-btn">×</span>
+                </div>
+    
+                <div class="card-content">
+                    <div class="project-description">
+                        <p>
+                            Tired of overflowing grocery bags and surprise checkout bills?
+                            This handy shopping list program is here to be your digital shopping buddy!
+                        </p>
+                        <ul>
+                            <li>Create lists with up to 100 items.</li>
+                            <li>Name each item, specify the quantity you need, and enter the price.</li>
+                            <li>Review your list anytime, displaying item details and calculating the total cost.</li>
+                            <li>Update existing items on your list, modify quantities, or change prices.</li>
+                            <li>Delete unwanted items from your list or clear the entire list for a fresh start.</li>
+                        </ul>
+                        <p>
+                            So ditch the pen and paper (or the endless grocery store memos) 
+                            and let this program be your shopping sidekick!
+                        </p>
+                    </div>
+
+                    <div class="button-container">
+                        <button onclick="location.href='https://github.com/Ennage/student-creations/tree/main/CS111/console-crud';">View on GitHub</button>                        
+                    </div>                  
+                                    
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Ennage</p>
+    </footer>
+
+</body>
+
+</html>

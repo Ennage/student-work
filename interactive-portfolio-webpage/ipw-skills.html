@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Portfolio Webpage</title>
+    <link rel="stylesheet" href="ipw-styles.css">
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+        <div class="container">
+            <h1>WELCOME TO MY PORTFOLIO</h1>
+        </div>
+    </header>
+
+    <!--Navigation-->
+    <nav>
+        <!--Buttons-->
+        <ul class="navbar">
+            <button onclick="location.href='index.html';">HOME</button>
+            <button onclick="location.href='ipw-skills.html';">SKILLS</button>
+            <button onclick="location.href='ipw-projects.html';">PROJECTS</button>
+            <button onclick="location.href='ipw-contact.html';">CONTACTS</button>
+        </ul>
+
+        <!--NON-FUNCTIONAL Search Bar-->
+        <form action="#" method="get" class="search-bar">
+            <input type="text" placeholder="Search..." name="query">
+            <button type="submit">Search</button>
+        </form>
+    </nav>
+
+    <main>
+        <div class="text-container">
+            <h2>Skills and Expertise</h2>
+            <p>
+                A summary of my relevant skillset.
+            </p>
+        </div>
+        
+        <div class="card-container">
+            
+            <!--Programming Languages Tab-->
+            <div class="card">
+                <div class="card-header">
+                    <span class="header-text">Programming Languages</span>
+                    <span class="close-btn">×</span>
+                </div>
+
+                <div class="card-content">
+                    <div class="skills">
+                        <ul>
+                            <li>C</li>
+                            <li>C++</li>
+                            <li>Python</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!--Other Skills Tab-->
+            <div class="card">
+                <div class="card-header">
+                    <span class="header-text">Other Skills</span>
+                    <span class="close-btn">×</span>
+                </div>
+
+                <div class="card-content">           
+                    <div class="skills">
+                        <ul>
+                            <li>Basic Programming Concepts</li>
+                            <li>Debugging and Problem-Solving</li>
+                            <li>Game Development</li>
+                            <li>Graphic Design</li>
+                            <li>Memory Management</li>                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Ennage</p>
+    </footer>
+
+</body>
+
+</html>

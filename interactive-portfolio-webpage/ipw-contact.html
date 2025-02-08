@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Portfolio Webpage</title>
+    <link rel="stylesheet" href="ipw-styles.css">
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+        <div class="container">
+            <h1>WELCOME TO MY PORTFOLIO</h1>
+        </div>
+    </header>
+
+    <!--Navigation-->
+    <nav>
+        <!--Buttons-->
+        <ul class="navbar">
+            <button onclick="location.href='index.html';">HOME</button>
+            <button onclick="location.href='ipw-skills.html';">SKILLS</button>
+            <button onclick="location.href='ipw-projects.html';">PROJECTS</button>
+            <button onclick="location.href='ipw-contact.html';">CONTACTS</button>
+        </ul>
+
+        <!--NON-FUNCTIONAL Search Bar-->
+        <form action="#" method="get" class="search-bar">
+            <input type="text" placeholder="Search..." name="query">
+            <button type="submit">Search</button>
+        </form>
+    </nav>
+
+    <main>
+        <div class="text-container">
+            <h2>Contact Information:</h2>
+            <p>
+                If you'd like to get in touch, feel free to email me or connect on social media.
+            </p>
+        </div>
+
+        <div class="card-container">  
+            
+            <!--Email-->
+            <div class="card">
+                <div class="card-header">
+                    <span class="header-text">Email</span>
+                    <span class="close-btn">×</span>
+                </div>
+
+                <div class="card-content">                    
+                    <p align="center">
+                        24-08618@g.batstate-u.edu.ph
+                    </p>                          
+                </div>
+            </div>
+
+            <!--Github-->
+            <div class="card">
+                <div class="card-header">
+                    <span class="header-text">Github</span>
+                    <span class="close-btn">×</span>
+                </div>
+
+                <div class="card-content">                    
+                    <p align="center">
+                        <a href="https://github.com/Ennage" target="_blank">github.com/Ennage</a>
+                    </p>                          
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Ennage</p>
+    </footer>
+
+</body>
+
+</html>

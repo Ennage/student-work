@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Portfolio Webpage</title>
+    <link rel="stylesheet" href="ipw-styles.css">
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+        <div class="container">
+            <h1>WELCOME TO MY PORTFOLIO</h1>
+        </div>
+    </header>
+
+    <!--Navigation-->
+    <nav>
+        <!--Buttons-->
+        <ul class="navbar">
+            <button onclick="location.href='index.html';">HOME</button>
+            <button onclick="location.href='ipw-skills.html';">SKILLS</button>
+            <button onclick="location.href='ipw-projects.html';">PROJECTS</button>
+            <button onclick="location.href='ipw-contact.html';">CONTACTS</button>
+        </ul>
+
+        <!--NON-FUNCTIONAL Search Bar-->
+        <form action="#" method="get" class="search-bar">
+            <input type="text" placeholder="Search..." name="query">
+            <button type="submit">Search</button>
+        </form>
+    </nav>
+    
+    <!--Main Content-->
+    <main>
+        
+        <div class="card-container">
+
+            <!--Profile Picture-->
+            <div class="card">
+                <div class="card-header">
+                    <span class="header-text">profile.jpg</span>
+                    <span class="close-btn">×</span>
+                </div>
+
+                <div class="card-content">
+                    <div class="profile">
+                        <img src="profile.jpg" height="200" width="200" >
+                    </div>
+                </div>
+            </div>     
+            
+            <!--About-->
+            <div class="card">
+                <div class="card-header">
+                    <span class="header-text">About</span>
+                    <span class="close-btn">×</span>
+                </div>
+
+                <div class="card-content">
+                    <div class="profile">
+                        <p align="left">
+                            I’m Geanne Margaret M. Calabia, 
+                            a first-year Computer Science student at 
+                            Batangas State University. 
+                            I'm a motivated student 
+                            excited to embark on a journey of learning and growth. 
+                            I'm eager to apply my skills to real-world problems 
+                            and contribute to the tech community.
+                        </p>
+                    </div>
+                </div>
+            </div>      
+
+            <!--More About-->
+            <div class="card">
+                <div class="card-header">
+                    <span class="header-text">More</span>
+                    <span class="close-btn">×</span>
+                </div>
+
+                <div class="card-content">
+                    <div class="profile">
+                        <ul class="more-buttons">                            
+                            <button onclick="location.href='ipw-skills.html';">SKILLS</button>
+                            <button onclick="location.href='ipw-projects.html';">PROJECTS</button>
+                            <button onclick="location.href='ipw-contact.html';">CONTACTS</button>
+                        </ul>
+                    </div>
+                </div>
+            </div>      
+                        
+        </div>
+    
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Ennage</p>
+    </footer>
+
+</body>
+
+</html>
